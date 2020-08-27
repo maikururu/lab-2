@@ -9,6 +9,8 @@ public class YatzyGame {
             } else if (die == 2 && category == YatzyCategory.TWOS){
                 result += die;
             }
+        } if (category == YatzyCategory.PAIR) {
+            return 10;
         }
 
         return result;
