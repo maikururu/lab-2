@@ -17,11 +17,13 @@ public class YatzyTest {
 
     @Test
     void shouldScoreTwos(){
-
-
         assertEquals(4, yatzyGame.score(YatzyCategory.TWOS, new int[] {3, 2, 2, 6, 1}));
         assertEquals(2, yatzyGame.score(YatzyCategory.TWOS, new int[] {1, 4, 4, 2, 1}));
 
+    }
+    @Test
+    void shouldScorePair() {
+        assertEquals(10, yatzyGame.score(YatzyCategory.PAIR, new int[] {1, 2 ,5, 5, 2}));
     }
 
 }
