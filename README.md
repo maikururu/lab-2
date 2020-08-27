@@ -1,0 +1,1 @@
+![Java CI with Maven](https://github.com/maikururu/lab-2/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
